@@ -18,3 +18,10 @@ for icons I used react-icons
     npm install react-icons --save
 
 the font used is inter font so I searched for in google fonts got it imported the link to index.css
+
+
+I created the navbar component imported the logo
+
+
+for the backgroound of the whole web i used tailwind background snippent from https://bg.ibelick.com/
+ pasted to app.jsx changed class to className
