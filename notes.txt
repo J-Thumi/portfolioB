@@ -1,0 +1,20 @@
+visited oficial tailwind site clicked quick search search for vite clicked on install with vite
+copy first code to make react app 
+    npm create vite@latest my-project -- --template react
+    cd my-project
+    npm install
+install tailwind with next code
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+
+when we install react app with vite run it with npm run dev not npm start
+
+
+To download a folder from GitHub, navigate to your desired repository, 
+select the folder you want to download from GitHub, copy the URL, navigate to https://download-directory.github.io/ 
+and paste the URL into the text box, and hit enter .
+
+for icons I used react-icons
+    npm install react-icons --save
+
+the font used is inter font so I searched for in google fonts got it imported the link to index.css
