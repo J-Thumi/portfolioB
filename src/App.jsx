@@ -5,6 +5,9 @@ import About from './component/About'
 import Technologies from './component/Technologies'
 import Experience from './component/Experience'
 import Projects from './component/Projects'
+import Contacts from './component/Contacts'
+import {Layout} from 'antd'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -26,6 +29,20 @@ const App = () => {
     <Technologies />
     <Experience />
     <Projects />
+    <Contacts />
+
+{/* <Layout>
+            <div className="routes">
+              <Routes> 
+                  <Route exact path="/hero" element={<Hero />} />
+                  <Route exact path="/about" element={<About />} />
+                  <Route exact path="/technologies" element={<Technologies />} />
+                  <Route exact path="/experience" element={ <Experience />} />
+                  <Route exact path="/projects" element={<Projects />} />
+                  <Route exact path="/contacts" element={<Contacts />} />
+              </Routes>
+            </div>
+            </Layout> */}
     </div>
     
 
