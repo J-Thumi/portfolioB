@@ -25,3 +25,7 @@ I created the navbar component imported the logo
 
 for the backgroound of the whole web i used tailwind background snippent from https://bg.ibelick.com/
  pasted to app.jsx changed class to className
+
+
+ All the text in the web is in idex.js If I want to change anything its there
+ 
